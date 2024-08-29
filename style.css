@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header,
+footer {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #f4f4f4;
+}
+
+.content-section {
+  display: flex;
+  padding: 50px 20px;
+}
+
+.left {
+  width: 60%;
+  padding-right: 20px;
+}
+
+.left p {
+  margin: 20px 0;
+}
+
+.right {
+  width: 40%;
+  position: relative;
+}
+
+.right img {
+  position: sticky;
+  top: 50px;
+  width: 100%;
+  height: auto;
+  max-height: calc(100vh - 100px);
+}
